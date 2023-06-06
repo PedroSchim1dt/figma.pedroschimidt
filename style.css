@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(Images/fundoheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+
+}
+header figure {
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 108px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 10px;
+
+}
+
+header figure img {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+header .njr {
+    width: 150px;
+    height: 70px;
+    margin-right: 300px;
+    margin-top: 20px;
+    font-family: 'Bruno Ace', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+header h1 {
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 50px;
+    color: black;
+    text-shadow: yellow;
+
+}
+
+nav {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-right: 100px;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 15px 50px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+
+nav ul li a:hover {
+    background-color: #ffffff  ;
+    color: #131212;
+
+}
+
+nav ul li a {
+    font-family: 'Bruno Ace',sans-serif;
+    font-size: 13px;
+
+}
+
+main {
+    min-height: 525px;
+    
+}
+
+#title{
+    padding-left: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 800px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+}
+
+main p {
+    margin-left: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;  
+    font-size: 20px;
+
+}
+#biografia {
+    padding-left: 130px;
+    margin-left: 40px;
+    background-image: url(Images/neymar1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top-left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#title {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: 'Bruno Ace', sans-serif;
+
+}
+#patrocinios img {
+    margin-right: 30px;
+
+}
+
+#estatisticas {
+    padding-top: 100px;
+    margin-left: 50px;
+    background-image: url(Images/ney2.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top-left;
+   
+}
+
+#title2 {
+    font-size: 50px;
+    font-family: 'Bruno Ace', sans-serif;
+    padding-left: 570px;
+    display: flex;
+   
+}
+
+#title3 {
+    font-size: 50px;
+    font-family: 'Bruno Ace', sans-serif;
+    padding-left: 700px;
+
+}
+
+#titulos {
+    padding-top: 100px;
+    margin-left: 50px;
+    background-image: url(Images/ney3.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top-left;
+
+}
+
+.santos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;  
+    font-size: 20px;
+    margin-left: 240px;
+    height: 30px;
+    padding-bottom: 100px;
+    
+}
+
+.barcelona {
+    display: flex;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;  
+    font-size: 20px;
+    margin-left: 240px;
+    align-items: center;
+    height: 250px;
+    
+}
+footer{
+    height: 100px;
+    background-image: url(Images/fundofooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer figure img {
+    width: 80px;
+    border-radius: 25px;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+#patrocinios  {
+    width: 800px;
+    height: 50px;
+    margin-left: 350px;
+    margin-right: 100px;
+    
+}
